@@ -25,5 +25,10 @@ p{
     color: var(--secondary-color)
 }
 
+#button {
+    background: #09f;
+    color: white;
+    border: 0;
+}
 
 
