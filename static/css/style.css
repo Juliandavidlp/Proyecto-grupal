@@ -1,0 +1,17 @@
+    :root{
+        --bg-color: #000000;
+        --primary-color: #0B97F4;
+        --secondary-color: #ECEAF6;
+        --third-color: #1C1736;
+}
+body{
+    background-color: var(--bg-color);
+}
+footer {
+    font-family: 'poppins';
+    color: var(--secondary-color);
+}
+p{
+    font-family: 'poppins';
+    color: var(--secondary-color)
+}
