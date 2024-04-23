@@ -1,17 +1,29 @@
-    :root{
-        --bg-color: #000000;
-        --primary-color: #0B97F4;
-        --secondary-color: #ECEAF6;
-        --third-color: #1C1736;
+:root{
+    --bg-color: #000000;
+    --primary-color: #0B97F4;
+    --secondary-color: #ECEAF6;
+    --third-color: #1C1736;
+    --text-color:#FFF;
 }
+
 body{
     background-color: var(--bg-color);
+    color: var(--text-color);
 }
+
+h1 {
+    color:#FFF
+}
+
 footer {
     font-family: 'poppins';
     color: var(--secondary-color);
 }
+
 p{
     font-family: 'poppins';
     color: var(--secondary-color)
 }
+
+
+
