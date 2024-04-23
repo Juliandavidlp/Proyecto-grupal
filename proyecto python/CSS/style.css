@@ -11,6 +11,8 @@
 }
 body{
     font-family:'Poppins', sans-serif;
+    background-color: rgba(#1C1736, 0, 0, #000);
+    
 }
 
 section{
@@ -40,7 +42,7 @@ section form{
     flex-wrap: wrap;
     max-width: 500px;
     border-radius: 20px;
-    border: 2px solid rgba(0, 0, 0,.1);
+    border: 5px solid #000;
 }
 section form label{
     width: 100%;
