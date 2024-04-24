@@ -26,10 +26,13 @@ p{
 }
 
 .button {
-    background: #09f;
-    color: white;
+    background: var(--primary-color);
+    color: var(--text-color);
     border: 0;
     border-radius: 4em;
 }
 
+.link{
+    color: var(--text-color) 
+}
 
