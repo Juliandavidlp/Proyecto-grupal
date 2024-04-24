@@ -25,10 +25,11 @@ p{
     color: var(--secondary-color)
 }
 
-#button {
+.button {
     background: #09f;
     color: white;
     border: 0;
+    border-radius: 4em;
 }
 
 
