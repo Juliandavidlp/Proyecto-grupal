@@ -9,12 +9,12 @@
 }
 
 *{
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body{
     background-color: var(--bg-color);
-    color: var(--text-color);
+    color: var(--text-color)
 }
 
 h1 {
@@ -35,7 +35,7 @@ p{
     background: var(--primary-color);
     color: var(--text-color);
     border: 0;
-    border-radius: 4em;
+    border-radius: 4em
 }
 
 .link{
