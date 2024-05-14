@@ -1,0 +1,46 @@
+:root{
+    --bg-color: #000000;
+    --primary-color: #0B97F4;
+    --secondary-color: #ECEAF6;
+    --third-color: #1C1736;
+    --text-color:#FFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'poppins';
+    font-family: 'roboto';
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color)
+}
+
+h1 {
+    color:#FFF
+}
+
+footer {
+    font-family: 'poppins';
+    color: var(--secondary-color);
+}
+
+p{
+    font-family: 'poppins';
+    color: var(--secondary-color)
+}
+
+.button {
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: 0;
+    border-radius: 4em
+}
+
+.link{
+    color: var(--text-color) 
+}
+

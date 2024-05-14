@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compumundo ~ HR</title>
+        <!-- Favicon: -->
+    <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
+    <!-- Fuentes: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- CSS: -->
+    <link rel="stylesheet" href="./static/css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Compumundo ~ HR</h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form id="formularioContacto" action="#" method="GET">
+                <div>
+                    <label for="firstname">Nombre</label>
+                    <input type="text" name="firstname" id="firstname" required>
+                </div>
+                <div>
+                    <label for="lastname">Apellido</label>
+                    <input type="text" name="lastname" id="lastname" maxlength="20" minlength="2" required >
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Por favor ingresa el email" required>
+                </div>
+                <div>
+                    <label for="country">País</label>
+                    <select name="country" id="country" required>
+                        <option value="">Seleccione</option>
+                        <option value="AR">Argentina</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BR">Brasil</option>
+                        <option value="CL">Chile</option>
+                        <option value="UY">Uruguay</option>
+                        <option value="PY">Paraguay</option>
+                    </select>
+                </div> 
+                <div>      
+                    <label for="consulta">Escriba su consulta</label>
+                    
+                    <textarea name="consulta" id="consulta" required></textarea>
+                    
+                </div>
+                <div>
+                    <label for="suscripcion">Suscribirme al Newsletter</label>
+                    <input type="checkbox" id="suscripcion" name="suscripcion">
+                </div>
+               
+                <div> 
+                    <button type="submit">Enviar</button> 
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- Referencia al archivo de validacion -->
+    <script src="./static/js/validacion.js"></script>
+</body>
+</html>
