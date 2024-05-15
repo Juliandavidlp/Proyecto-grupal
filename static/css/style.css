@@ -58,13 +58,20 @@ p{
 }
 
 .button {
-    background: var(--primary-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
     border: 0;
     border-radius: 4em;
     width: 100px;
     height: 40px;
+    cursor:pointer;
 }
+/* 
+.button{
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+} */
+
 
 .link{
     color: var(--text-color) 
