@@ -26,8 +26,7 @@ h1 {
 footer {
     font-family: 'poppins';
     color: var(--secondary-color);
-}
-
+    }
 p{
     font-family: 'poppins';
     color: var(--secondary-color)
