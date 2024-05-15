@@ -43,7 +43,8 @@ body{
     
    
      
-  }
+}
+
 h1 {
     color:var(--text-color);
     font-size: 2.5vw; /* 4% del ancho de la ventana gráfica. */
@@ -52,12 +53,30 @@ h1 {
 footer {
     font-family: 'poppins';
     color: var(--secondary-color);
-    }
+}
+
 p{
     font-family: 'poppins';
     color: var(--secondary-color)
 }
 
+article p{
+    margin-bottom: 9vh;
+}
+
+.buscador{
+    background-color: var(--third-color);
+  
+    border-radius: 2em;
+    color: var(--text-color);
+    font-size: 16px;
+    height: 50px;
+    margin: 20px 0px;
+    outline: none;
+    padding: 0px 20px;
+    width: 40%;
+
+}
 .button {
     background-color: var(--primary-color);
     color: var(--text-color);
