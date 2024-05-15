@@ -134,3 +134,12 @@ p{
 .link{
     color: var(--text-color) 
 }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    height: 150px;
+    font-family:'poppins' 'roboto';  
+}
+
