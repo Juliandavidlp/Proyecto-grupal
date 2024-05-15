@@ -35,10 +35,11 @@ body{
 
   .link {
     position: relative;
+    left: 35rem;
     top: -6rem;
     text-decoration: none;
-    margin-left: 22rem;
-    font-size: x-large;
+    margin-left: 15rem;
+    font-size: large;
     
    
      
