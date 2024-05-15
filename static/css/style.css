@@ -23,7 +23,7 @@ body{
     display: flex;
     align-items: center;
     background-color: var(--bg-color);
-    color: white;
+    color: var(--bg-color);
     padding: 10px;
     
   }
@@ -95,5 +95,13 @@ article p{
 
 .link{
     color: var(--text-color) 
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    height: 150px;
+    font-family:'poppins' 'roboto';  
 }
 
