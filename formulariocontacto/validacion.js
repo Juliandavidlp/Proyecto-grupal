@@ -3,12 +3,12 @@ document.getElementById("formularioContacto").addEventListener("submit", functio
     const lastname = document.getElementById("lastname");
     const consulta = document.getElementById("consulta");
 
-    // Se elimina los espacios en blanco al principio y al final de la cadena de caracteres
+    // Elimina los espacios en blanco al principio y al final de la cadena de caracteres
     firstname.value = firstname.value.trim();
     lastname.value = lastname.value.trim();
     consulta.value = consulta.value.trim();
 
-    // Se Verifica si los valores ingresados están vacíos
+    // Verifica si los valores ingresados están vacíos
     if (firstname.value === "" || lastname.value === "" || consulta.value === "") {
         event.preventDefault(); 
         // Evita el envío del formulario en caso de campos vacíos 
