@@ -61,7 +61,9 @@ p{
     background: var(--primary-color);
     color: var(--text-color);
     border: 0;
-    border-radius: 4em
+    border-radius: 4em;
+    width: 100px;
+    heigth: 40px;
 }
 
 .link{
