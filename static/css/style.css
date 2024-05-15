@@ -19,6 +19,30 @@ body{
     color: var(--text-color)
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color);
+    color: white;
+    padding: 10px;
+    
+  }
+
+  .logo-img {
+    height: 50px; 
+    margin-left: 20rem;
+  }
+
+  .link {
+    position: relative;
+    top: -6rem;
+    text-decoration: none;
+    margin-left: 22rem;
+    font-size: x-large;
+    
+   
+     
+  }
 h1 {
     color:#FFF
 }
