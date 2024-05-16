@@ -49,10 +49,8 @@ body{
     width: 50vw;
     height: 20vw;
     font-size: 20px;
-    margin-top: 4vw;
-    margin-left:4vw;
+    margin: 4vw;
 
-    
 }
 
 h1 {
@@ -140,10 +138,11 @@ aside section{
     background-color: var(--secondary-color);
     color: var(--bg-color);
 }
-
 aside p{
-    margin-left: 1000px;
-    bottom: 50px;
+    margin-left: 54vw;
+}
+aside h3{
+    margin-left: 4vw;
 }
 
 footer {
