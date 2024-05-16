@@ -52,6 +52,15 @@ h1 {
     padding-bottom: 4rem;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    height: 150px;
+    font-family:'poppins' 'roboto';  
+}
+
 .product-grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
