@@ -91,6 +91,7 @@ h1 {
     padding: 10px;
     max-height: 100%;
     line-height: 25px;
+    border-radius: 15px;
     background-color: var(--third-color);
     width: 100%;
 }
