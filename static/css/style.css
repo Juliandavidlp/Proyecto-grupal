@@ -37,12 +37,22 @@ body{
 
   .link {
     position: relative;
-    left: 26rem;
+    left: 56rem;
     top: -1rem;
     text-decoration: none;
-    margin-left: 15rem;
+    margin-left: 8rem;
     font-size: large;
      
+}
+
+.article-main{
+    width: 50vw;
+    height: 20vw;
+    font-size: 20px;
+    margin-top: 4vw;
+    margin-left:4vw;
+
+    
 }
 
 h1 {
@@ -160,7 +170,7 @@ article p{
     color: var(--text-color);
     font-size: 16px;
     height: 50px;
-    margin: 20px 0px;
+    margin: 20px 50px;
     outline: none;
     padding: 0px 20px;
     width: 40%;
