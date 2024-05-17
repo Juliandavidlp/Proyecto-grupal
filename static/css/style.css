@@ -212,7 +212,14 @@ article p{
     color: var(--secondary-color);
     border: 2px solid var(--secondary-color);
 } */
+.textppd {
+    display: flexbox;
+    justify-content: space-evenly;
+    font-size: x-large;
+    margin: 15rem;
+    text-align: justify;
 
+}
 
 .link{
     color: var(--text-color) 
