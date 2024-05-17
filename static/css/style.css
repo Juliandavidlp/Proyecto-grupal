@@ -236,3 +236,52 @@ article p{
 .easteregg-copyr {
 color: red;
 }
+
+
+section h1{
+    font-size: 3em;
+}
+section h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+}
+
+section form{
+    padding: 1.5em;
+    display: flex;
+    margin-left: 60em;
+    margin-bottom: 10em;
+    flex-wrap: wrap;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 8px solid var(--third-color);
+}
+section form label{
+    width: 100%;
+    padding: 0.2em;
+    margin-bottom: 0.5em
+}
+
+section form input{
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border-radius: 9px;
+    border: none;
+    outline-color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+section button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+    transition: var(--transition);
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 9px;
+    margin-top: 1.5em;
+    font-size: 1em;
+}
