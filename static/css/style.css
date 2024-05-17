@@ -53,6 +53,25 @@ body{
 
 }
 
+/* Slider compatible con celulares */
+.slider{
+    display: flex;
+
+    width: 500px;
+    aspect-ratio: 16/9;
+
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+}
+
+.slider img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+
+    scroll-snap-align: center;
+}
+
 h1 {
     color:var(--text-color);
     font-size: 2.5vw; /* 2,5% del ancho de la ventana gráfica. */
@@ -140,6 +159,7 @@ aside section{
 }
 aside p{
     margin-left: 54vw;
+    text-wrap: balance;
 }
 aside h3{
     margin-left: 4vw;
