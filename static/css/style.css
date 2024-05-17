@@ -53,7 +53,7 @@ body{
 
 }
 
-/* Slider compatible con celulares */
+/* Slider compatible con celulares
 .slider{
     display: flex;
 
@@ -70,7 +70,7 @@ body{
     object-fit: cover;
 
     scroll-snap-align: center;
-}
+} */
 
 h1 {
     color:var(--text-color);
