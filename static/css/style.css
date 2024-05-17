@@ -24,7 +24,6 @@ body{
     align-items: center;
     background-color: var(--bg-color);
     color: var(--bg-color);
-
     box-sizing: content-box;
     width: 100%;
     height: 10%;
@@ -38,10 +37,10 @@ body{
   .link {
     position: relative;
     left: 56rem;
-    top: -1rem;
+    top: -7rem;
     text-decoration: none;
     margin-left: 8rem;
-    font-size: large;
+    font-size: x-large;
      
 }
 
@@ -101,7 +100,10 @@ h1 {
     color: var(--text-color);
     text-decoration: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 708eaac731050eefbfa4e5b297b140252120d6b5
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -309,9 +311,16 @@ section button{
 }
 
 .question {
+<<<<<<< HEAD
 
     margin-top: -9rem;
     margin-bottom: 5rem;
     margin-left: 69rem;
 
 }
+=======
+    margin-top: -9rem;
+    margin-bottom: 5rem;
+    margin-left: 69rem;
+}
+>>>>>>> 708eaac731050eefbfa4e5b297b140252120d6b5
