@@ -153,6 +153,9 @@ footer {
     width: 100%;
     height: 10vh;
 }
+.footer-container{
+    margin-left: 4vw;
+}
 
 p{
     font-family: 'poppins';
