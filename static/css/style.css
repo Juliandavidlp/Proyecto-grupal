@@ -36,10 +36,10 @@ body{
 
   .link {
     position: relative;
-    left: 56rem;
-    top: -7rem;
+    left: 56.5rem;
+    top: -1.6rem;
     text-decoration: none;
-    margin-left: 8rem;
+    margin-left: 6.4rem;
     font-size: x-large;
      
 }
@@ -93,25 +93,6 @@ h1 {
     margin-left: 40rem;
 }
 
-.linkpp {
-    margin-left: 95rem;
-    font-size: large;
-    font-family: 'poppins' 'roboto';
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-.tp {
-    margin-left: 40rem;
-}
-
-.linkpp {
-    margin-left: 95rem;
-    font-size: large;
-    font-family: 'poppins' 'roboto';
-    color: var(--text-color);
-    text-decoration: none;
-}
 .wrapper {
     display: flex;
     flex-direction: column;
