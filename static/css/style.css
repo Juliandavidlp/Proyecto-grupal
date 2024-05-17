@@ -100,10 +100,18 @@ h1 {
     color: var(--text-color);
     text-decoration: none;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 708eaac731050eefbfa4e5b297b140252120d6b5
+.tp {
+    margin-left: 40rem;
+}
+
+.linkpp {
+    margin-left: 95rem;
+    font-size: large;
+    font-family: 'poppins' 'roboto';
+    color: var(--text-color);
+    text-decoration: none;
+}
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -311,16 +319,15 @@ section button{
 }
 
 .question {
-<<<<<<< HEAD
 
     margin-top: -9rem;
     margin-bottom: 5rem;
     margin-left: 69rem;
 
 }
-=======
+
+.question {
     margin-top: -9rem;
     margin-bottom: 5rem;
     margin-left: 69rem;
 }
->>>>>>> 708eaac731050eefbfa4e5b297b140252120d6b5
