@@ -81,6 +81,14 @@ h1 {
 .tp {
     margin-left: 40rem;
 }
+
+.linkpp {
+    margin-left: 95rem;
+    font-size: large;
+    font-family: 'poppins' 'roboto';
+    color: var(--text-color);
+    text-decoration: none;
+}
 .wrapper {
     display: flex;
     flex-direction: column;
