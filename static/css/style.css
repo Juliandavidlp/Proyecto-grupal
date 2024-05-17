@@ -78,6 +78,9 @@ h1 {
     padding-bottom: 4rem;
 }
 
+.tp {
+    margin-left: 40rem;
+}
 .wrapper {
     display: flex;
     flex-direction: column;
