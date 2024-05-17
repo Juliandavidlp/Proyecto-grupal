@@ -50,18 +50,29 @@ body{
     height: 20vw;
     font-size: 20px;
     margin: 4vw;
-
+    
+    /* Activar Flexbox */
+    display: flex; 
 }
+    
 
-/* Slider compatible con celulares
+.article-main > div:first-child { /* Selecciono el primer div hijo */
+    flex: none; /* No permito que el primer div se expanda */
+  }
+
 .slider{
     display: flex;
 
-    width: 500px;
+    width: 42.2vw;
+    height: 20vw;
     aspect-ratio: 16/9;
 
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
+    flex: 0 0 auto; /* No permitir que el slider se expanda y alinearlo a la derecha */
+    margin-left: 10.9vw; 
+
+   
 }
 
 .slider img {
@@ -70,13 +81,25 @@ body{
     object-fit: cover;
 
     scroll-snap-align: center;
-} */
+} 
 
 h1 {
     color:var(--text-color);
     font-size: 2.5vw; /* 2,5% del ancho de la ventana gráfica. */
     font: 'poppins';
     padding-bottom: 4rem;
+}
+
+.tp {
+    margin-left: 40rem;
+}
+
+.linkpp {
+    margin-left: 95rem;
+    font-size: large;
+    font-family: 'poppins' 'roboto';
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 .wrapper {
@@ -237,9 +260,8 @@ article p{
 color: red;
 }
 
-
-section h1{
-    font-size: 3em;
+ section h1 { /*No tocar, cuidado!!! */
+    font-size: 3.7em;
 }
 section h2{
     text-align: center;
@@ -284,4 +306,12 @@ section button{
     border-radius: 9px;
     margin-top: 1.5em;
     font-size: 1em;
+}
+
+.question {
+
+    margin-top: -9rem;
+    margin-bottom: 5rem;
+    margin-left: 69rem;
+
 }
