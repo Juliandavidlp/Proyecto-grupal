@@ -295,3 +295,9 @@ section button{
     margin-top: 1.5em;
     font-size: 1em;
 }
+
+.question {
+    margin-top: -9rem;
+    margin-bottom: 5rem;
+    margin-left: 69rem;
+}
