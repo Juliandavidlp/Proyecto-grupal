@@ -264,8 +264,10 @@ section h2{
 section form{
     padding: 1.5em;
     display: flex;
-    margin-left: 60em;
-    margin-bottom: 10em;
+    /* margin-left: 60em;
+    margin-bottom: 10em; */
+    margin: auto;
+    margin-bottom: 8.3em;
     flex-wrap: wrap;
     max-width: 500px;
     border-radius: 20px;
@@ -311,4 +313,13 @@ section button{
     margin-top: -9rem;
     margin-bottom: 5rem;
     margin-left: 69rem;
+}
+
+
+
+/* FORMULARIO */
+
+.h2-formulario{
+    margin-top: 4rem;
+ 
 }
