@@ -34,6 +34,20 @@ body{
     margin-left: 20rem;
   }
 
+  #logo:hover{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: tilt-n-move-shaking 0.5s infinite;
+}
+
+@keyframes tilt-n-move-shaking {
+    0% {transform: translate(0,0) rotate(0deg);}
+    25%{transform: translate(2px,2px) rotate(2deg);}
+    50%{transform: translate(0,0) rotate(0deg);}
+    75%{transform: translate(-2px,2px) rotate(-2deg);}
+    100%{transform: translate(0,0) rotate(0deg);}
+
+}
+
   .link {
     position: relative;
     left: 56.5rem;
