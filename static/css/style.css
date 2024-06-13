@@ -21,7 +21,7 @@ body{
 
 .header {
     display: flex;
-    align-items: center;
+    align-items: center; 
     background-color: var(--bg-color);
     color: var(--bg-color);
     box-sizing: content-box;
@@ -31,7 +31,7 @@ body{
 
   .logo-img {
     height: 50px; 
-    margin-left: 20rem;
+    /* margin-left: 20rem; */
   }
 
   #logo:hover{
@@ -48,7 +48,7 @@ body{
 
 }
 
-  .link {
+.link {
     position: relative;
     left: 56.5rem;
     top: -1.6rem;
