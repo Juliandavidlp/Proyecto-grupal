@@ -22,6 +22,7 @@ body{
 .header {
     display: flex;
     align-items: center; 
+    justify-content: space-between;
     background-color: var(--bg-color);
     color: var(--bg-color);
     box-sizing: content-box;
@@ -49,11 +50,12 @@ body{
 }
 
 .link {
-    position: relative;
+    /* position: relative;
     left: 56.5rem;
-    top: -1.6rem;
+    top: -1.6rem; */
     text-decoration: none;
     margin-left: 6.4rem;
+    margin-right: 1rem;
     font-size: x-large;
      
 }
