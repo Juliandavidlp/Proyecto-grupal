@@ -30,6 +30,10 @@ body{
     height: 10%;
   }
 
+  .nav-link{
+    display: flex;
+  }
+
   .logo-img {
     height: 50px; 
     /* margin-left: 20rem; */
