@@ -353,10 +353,17 @@ section button{
         }
     .tp{
         margin-left: 5rem;
+        margin-top: 2rem;
         font-size: medium;
     }
    .wrapper{
         font-size:x-small;
-    
+        }
+    }
+    @media screen and (min-width: 601px) and (max-width: 1366px) {
+    .tp{
+        font-size: x-large;
+        margin-top: 2rem;
+        margin-left: 10rem;
     }
     }
