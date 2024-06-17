@@ -357,6 +357,9 @@ section button{
     margin-top: 4rem;
 }
 
+.loginForm{
+    margin-bottom: 19.4em;
+}
 
 @media screen and (max-width: 600px) {
     .product-grid{
