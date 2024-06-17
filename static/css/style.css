@@ -333,16 +333,8 @@ section button{
     
 }
 
-/* .question {
 
-    margin-top: -9rem;
-    margin-bottom: 5rem;
-    margin-left: 69rem;
-
-} */
-
-
-/* FORMULARIO */
+/* FORMULARIOS */
 
 .h2-formulario{
     margin-top: 4rem;
@@ -359,6 +351,14 @@ section button{
 
 .loginForm{
     margin-bottom: 19.4em;
+}
+
+.crea-tu-cuenta{
+    margin-top: 4rem;
+}
+
+.singupForm{
+    margin-bottom: 13.7em
 }
 
 @media screen and (max-width: 600px) {
