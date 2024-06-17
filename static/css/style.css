@@ -285,7 +285,7 @@ section form{
     padding: 1.5em;
     /* display: flex; */
     margin: auto;
-    margin-bottom: 8.3em;
+    margin-bottom: 9em;
     flex-wrap: wrap;
     align-content: space-evenly;
 
@@ -354,8 +354,9 @@ section button{
 }
 
 .iniciar-sesión {
-    margin-top: 12.5rem;
+    margin-top: 4rem;
 }
+
 
 @media screen and (max-width: 600px) {
     .product-grid{
