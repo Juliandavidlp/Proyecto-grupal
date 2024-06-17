@@ -340,8 +340,9 @@ section button{
 .registrate{
     margin-left: 7rem;
 }
-.iniciar-sesión{
-    margin-top: 10rem;
+
+.iniciar-sesión {
+    margin-top: 6.3rem;
 }
 
 @media screen and (max-width: 600px) {
