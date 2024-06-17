@@ -283,12 +283,12 @@ section h2{
 
 section form{
     padding: 1.5em;
-    display: flex;
-    /* margin-left: 60em;
-    margin-bottom: 10em; */
+    /* display: flex; */
     margin: auto;
     margin-bottom: 8.3em;
     flex-wrap: wrap;
+    align-content: space-evenly;
+
     max-width: 500px;
     border-radius: 20px;
     border: 8px solid var(--third-color);
@@ -315,9 +315,10 @@ section button{
     font-family: 'Poppins', sans-serif;
     transition: var(--transition);
     border: none;
-    padding: 0.5em 1em;
+    padding: 0.5em 2.5em;
     border-radius: 9px;
     margin-top: 1.5em;
+    margin-left: 10em;
     font-size: 1em;
 }
 
