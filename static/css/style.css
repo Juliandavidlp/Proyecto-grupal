@@ -315,7 +315,7 @@ section button{
     font-family: 'Poppins', sans-serif;
     transition: var(--transition);
     border: none;
-    padding: 0.5em 2.5em;
+    padding: 0.5em 1em;
     border-radius: 9px;
     margin-top: 1.5em;
     margin-left: 10em;
