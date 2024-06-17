@@ -321,20 +321,13 @@ section button{
     font-size: 1em;
 }
 
-.question {
+/* .question {
 
     margin-top: -9rem;
     margin-bottom: 5rem;
     margin-left: 69rem;
 
-}
-
-.question {
-    margin-top: -9rem;
-    margin-bottom: 5rem;
-    margin-left: 69rem;
-}
-
+} */
 
 
 /* FORMULARIO */
@@ -343,6 +336,14 @@ section button{
     margin-top: 4rem;
  
 }
+
+.registrate{
+    margin-left: 7rem;
+}
+.iniciar-sesión{
+    margin-top: 10rem;
+}
+
 @media screen and (max-width: 600px) {
     .product-grid{
         display: grid;
