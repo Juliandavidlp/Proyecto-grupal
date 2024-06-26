@@ -1,4 +1,4 @@
-# Compumundo-hr
+# Compumundo Hr
 
 
 Comparto el proyecto de front-end que dirigí en el que nos involucramos las últimas semanas con Silvia Pacheco, Damian Rodriguez Flores y Juan Cruz Galarza. El sitio posee cuatro páginas HTML, escribí la página de inicio a mano con CSS puro -por ejemplo, el slider de imágenes-, e incluimos formularios y sus respectivas validaciones. Usé Flexbox, trabajamos con Grid en productos, íconos de FontAwesome y animaciones.
